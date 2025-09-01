@@ -1,14 +1,12 @@
 <nav class="menu" id="nav_menu">
-  <a href="#home" class="active">Color</a>
-  <a href="#news">Image</a>
-  <a href="#contact">Repeat</a>
-  <a href="#news">Attachment</a>
-  <a href="{{ url_for('background_functions') }}">Background Functions</a>
+  <a href="#home" class="active">{% block HTML_link %}HTML{% endblock %}</a>
+  <a href="#news">{% block CSS_link  %}CSS{% endblock %}</a>
+  <a href="#contact">{% block JavaScript_link %}JavaScript{% endblock %}</a>
+  <a href="#">{% block Python_link %}Python{% endblock %}</a>
   <a href="javascript:void(0);" class="icon" onclick="changeMenu()">
-    <i class="fa fa-bars"></i>
+    <i class="fa-solid fa-bars"></i>
   </a>
 </nav>
-
 
 <script>
 function changeMenu() {

@@ -1,18 +1,13 @@
 {% extends "base.html" %}
-{% block title %}CSS{% endblock %}
-{% block dashboard %}
-  {% include "sidebar.html" %}
-<div id="content-area">
-  {% include "./background/backgroundmenu.html" %}
+{% block title %}CSS: Background{% endblock %}
 
-  <div>
-    <h1>CSS: background</h1>
-    <p>
-        This a learning and reference tool for CSS.
-    </p>
-  </div>
 
-</div>
-
+{% block menu %}
+    {% include "menu.html" %}
+    {% include "./background/backgroundmenu.html" %}
+{% endblock %}
+{% block content %}
+  <h2>CSS Background Properties</h2>
+<p><span class="bold">Purpose:</span> to add background effects to elements</p>
 {% endblock %}
 

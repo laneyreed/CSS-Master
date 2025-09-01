@@ -1,7 +1,11 @@
 {% extends "base.html" %}
 {% block title %}CSS{% endblock %}
 
-{% block dashboard %}
-  {% include "sidebar.html" %}
-  {% include "main-content.html" %}
+
+{% block menu %}
+    {% include "menu.html" %}
+{% endblock %}
+{% block content %}
+  <h1>CSS</h1>
+  <p> This a learning and reference tool for CSS. </p>
 {% endblock %}

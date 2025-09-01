@@ -1,0 +1,18 @@
+<div id="main-area" >
+{% block main_area %}
+    <div>
+        {% block menu %}
+            {% include "menu.html" %}
+        {% endblock %}
+    </div>
+
+    <div id="content-area">
+        {% block content_area %}
+            <h1>CSS</h1>
+            <p> This a learning and reference tool for CSS. </p>
+        {% endblock %}
+    </div>
+
+</div>
+
+{% endblock %}

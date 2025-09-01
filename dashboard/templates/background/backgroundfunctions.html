@@ -1,18 +1,15 @@
-
-
 {% extends "base.html" %}
-{% block title %}CSS{% endblock %}
-{% block dashboard %}
-  {% include "sidebar.html" %}
-<div id="content-area">
-  {% include "./background/backgroundmenu.html" %}
-    <div>
-      <h2>Background: Gradient Functions</h2>
-      <div>
+{% block title %}CSS: Background Functions{% endblock %}
+
+
+{% block menu %}
+    {% include "menu.html" %}
+    {% include "./background/backgroundmenu.html" %}
+{% endblock %}
+{% block content %}
+  <h2>Background: Gradient Functions</h2>
+  <div>
         <h3>linear-gradient()</h3>
         <div class="gradient-box"></div>
-      </div>
-    </div>
-</div>
-
+   </div>
 {% endblock %}
