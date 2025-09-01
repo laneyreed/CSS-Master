@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#dashboard {
+  display: flex;
+}
+
+
+/****************************************SIDEBAR*****************************************/
+#sidebar {
+  height: 100vh;
+  width: 10rem;
+  padding: 2rem;
+  background-color: grey;
+}
+
+#sidebar h2 {
+  margin-top: 0;
+}
+
+#sidebar a {
+  color: #333;
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+#sidebar a:hover {
+  text-decoration: underline;
+}
+
+/*********************************CONTENT AREA******************************************/
+#content-area {
+  padding: 20px;
+  width: calc(100% - 250px);
+}
+
+.gradient-box {
+  width: 200px;
+  height: 150px;
+  background: linear-gradient(
+    to right,
+    purple,
+    red
+  ); /* Apply the linear gradient */
+  border: 1px solid #ccc; /* Optional: Add a border for visibility */
+  display: flex; /* Optional: For centering content if needed */
+  align-items: center; /* Optional: For centering content if needed */
+  justify-content: center; /* Optional: For centering content if needed */
+  color: white; /* Optional: For text color if content is added */
+  font-family: sans-serif; /* Optional: For font styling if content is added */
+}
