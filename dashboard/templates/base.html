@@ -6,6 +6,9 @@
     <title>{% block title %}{% endblock %}</title>
     <link href="{{ url_for('static', filename='css/styles.css')}}" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/525fc14ecf.js" crossorigin="anonymous"></script>
+    <style>
+        {% block style %}{% endblock %}
+    </style>
 </head>
 <body>
     <div id="dashboard">
