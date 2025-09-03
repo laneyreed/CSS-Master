@@ -1,24 +1,26 @@
-<nav class="menu" id="nav_menu">
-  <a href="#home" class="active">Block</a>
-  <a href="#news">Inline</a>
-  <a href="#">Inline-Block</a>
-  <a href="#news">Flex</a>
-     <a href="#news">Contents</a>
-     <a href="#news">Grid</a>
-  <a href="#">None</a>
-  <a href="javascript:void(0);" class="icon" onclick="changeMenu()">
-    <i class="fa fa-bars"></i>
-  </a>
-</nav>
+{% extends "menu.html" %}
+{% block style %}
 
-
-<script>
-function changeMenu() {
-  var x = document.getElementById("nav_menu");
-  if (x.className === "menu") {
-    x.className += " responsive";
-  } else {
-    x.className = "menu";
-  }
+.concept-menu {
+  background-color: grey;
 }
-</script>
+
+.concept-menu a.active {
+  background-color: #A02CDC;
+  color: white;
+}
+
+{% endblock %}
+{% block nav %}
+<nav class="menu concept-menu" id="nav_menu">
+  {% block menu_item_1 %}<a href="#home" class="active">Block</a>{% endblock %}
+  {% block menu_item_2  %}<a href="#news">Inline</a>{% endblock %}
+  {% block menu_item_3 %}<a href="#">Inline-Block</a>{% endblock %}
+  {% block menu_item_4 %}<a href="#news">Flex</a>{% endblock %}
+  {% block menu_item_5 %}<a href="#news">Contents</a>{% endblock %}
+  {% block menu_item_6 %}<a href="#news">Grid</a>{% endblock %}
+  {% block menu_item_7 %}<a href="#">None</a>{% endblock %}
+
+</nav>
+{% endblock %}
+

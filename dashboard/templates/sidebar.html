@@ -1,6 +1,53 @@
+
+
+<style>
+    {% block style %}
+        #sidebar {
+          width: 10rem;
+          margin-right: .1rem;
+          background-color: grey;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        }
+
+        #sidebar-content{
+            padding: 2rem;
+        }
+
+        #sidebar-logo{
+        height: 70px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        }
+
+        .logo{
+            width: 5rem;
+        }
+
+        #sidebar h2 {
+          margin-top: 0;
+        }
+
+        #sidebar a {
+          color: #333;
+          display: block;
+          margin-bottom: 10px;
+          text-decoration: none;
+        }
+        #sidebar a:hover {
+          text-decoration: underline;
+        }
+    {% endblock %}
+
+</style>
+
+
 <div id="sidebar">
-    <h2>CSS</h2>
-    <a href="{{ url_for('background') }}">Backgrounds</a>
-    <a href="{{ url_for('display') }}">Display</a>
-    <a href="#">Settings</a>
+    <div id="sidebar-logo" >
+        <img class="logo" src="static/images/fe-code-logo.png">
+    </div>
+    <div id="sidebar-content" >
+        <h2>CSS</h2>
+        <a href="{{ url_for('background') }}">Backgrounds</a>
+        <a href="{{ url_for('display') }}">Display</a>
+        <a href="#">Settings</a>
+    </div>
 </div>
