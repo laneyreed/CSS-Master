@@ -1,17 +1,14 @@
-
-<style>
 {% block style %}
-
+<style>
 .menu {
   overflow: hidden;
-  background-color: #333;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .menu a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #333;
   text-align: center;
   padding: 8px 16px;
   text-decoration: none;
@@ -53,19 +50,15 @@
     text-align: left;
   }
 }
-
-{% endblock %}
 </style>
-
-
-
+{% endblock %}
 
 {% block nav %}
 <nav class="menu" id="nav_menu">
-  {% block menu_item_1 %}<a href="#home" class="active">HTML</a>{% endblock %}
-  {% block menu_item_2  %}<a href="#news">CSS</a>{% endblock %}
-  {% block menu_item_3 %}<a href="#contact">JavaScript</a>{% endblock %}
-  {% block menu_item_4 %}<a href="#">Python</a>{% endblock %}
+  {% block menu_item_1 %}<a href="{{ url_for('html_home')}}">HTML</a>{% endblock %}
+  {% block menu_item_2  %}<a href="{{ url_for('css_home')}}">CSS</a>{% endblock %}
+  {% block menu_item_3 %}<a href="#JavaScript">JavaScript</a>{% endblock %}
+  {% block menu_item_4 %}<a href="#Python">Python</a>{% endblock %}
   <a href="javascript:void(0);" class="icon" onclick="changeMenu()">
     <i class="fa-solid fa-bars"></i>
   </a>
