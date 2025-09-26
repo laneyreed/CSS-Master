@@ -1,4 +1,4 @@
-# 🎨 Responsive Banner
+# 🎨 Animated Responsive Banner
 
 ## 🚀 Overview
 **A standalone professional-grade, production-ready hero banner that draws attention without overwhelming. The compoenet can be used as a reusable, self-contained component and integrated into larger projects**
