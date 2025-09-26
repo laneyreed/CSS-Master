@@ -1,10 +1,10 @@
 # CSS Master 🎨
 
-**A curated collection of small CSS projects designed to help developers master advanced CSS techniques and concepts. Each project focuses on specific CSS features with practical examples, detailed explanations, and best practices.**
+**A curated collection of small CSS projects designed to help developers master advanced CSS techniques and concepts. Each project contain stand alone components and focuses on specific CSS features with practical examples, detailed explanations, and best practices.**
 
 ## 🚀 Overview
 
-**This repository contains hands-on CSS projects that demonstrate modern CSS techniques, from fundamental concepts to advanced styling patterns. Each project is self-contained with HTML, CSS, and documentation to help you understand and implement these techniques in your own projects.**
+**This repository contains hands-on CSS projects that demonstrate modern CSS techniques, from fundamental concepts to advanced styling patterns. Each project is self-contained with HTML, CSS, and documentation to help you understand and implement these techniques in your own projects. Projects contain reusable components that can be integrated into larger projects while maintaining its own styling and functionality**
 
 ## 🔧 Prerequisites
 
@@ -24,6 +24,7 @@
 ## 📚 Projects
 
 - 🔸 [Pseudo-Elements](./pseudo-elements/README.md) (`::before`, `::after`): Master decorative CSS without extra HTML
+- 📱 [Animations](./animations/README.md)
 
 - 🚧 More concepts coming soon...
 
@@ -40,7 +41,7 @@
    - Read the project-specific README and code comments for detailed explanations
 
 
-## 🎯 Project Structure
+## 📁 Project Structure
 
 ```
 CSS-Master/

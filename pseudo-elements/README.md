@@ -8,13 +8,16 @@
 
 ## 🎨 CSS Concepts Covered
 
-- ✅ Pseudo-elements (`::before`, `::after`)
-- ✅ CSS Positioning (`absolute`, `relative`)
-- ✅ CSS Transforms
-- ✅ Centering techniques
+✅ Pseudo-elements (`::before`, `::after`)
+
+✅ CSS Positioning (`absolute`, `relative`)
+
+✅ CSS Transforms
+
+✅ Centering techniques
 
 
-### Empty Pseudo Element
+### 🎯 Empty Pseudo Element
 - `pseudo-element.html ` and `styles.css`
 ```
 .card-title {
