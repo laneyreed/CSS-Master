@@ -17,6 +17,8 @@
    - Examine the CSS implementations
    - Read the project-specific README, CodeImplementation document and code comments for detailed explanations
 
+**Perfect for self-learners, bootcamp students, and anyone learning web development.**
+
 ## 📚 Projects
 
 - 🔸 [Pseudo-Elements](./pseudo-elements/README.md) (`::before`, `::after`): Master decorative CSS without extra HTML
