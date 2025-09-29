@@ -20,6 +20,12 @@
 - **Performance:** Focus on efficient CSS that doesn't impact page performance
 - **Cross-Browser Compatibility:** Techniques that work across modern browsers
 
+## Learn From This Repository
+- These are small projects/compoenents, so its easier to copy and paste the code into your text editor to see the projects in action
+- **Study the code:**
+   - Review the HTML structure
+   - Examine the CSS implementations
+   - Read the project-specific README, CodeImplementation document and code comments for detailed explanations
 
 ## 📚 Projects
 
@@ -28,11 +34,6 @@
 - ✨ [Images](./images/README.md)
 
 - 🚧 More concepts coming soon...
-
-- **Study the code:**
-   - Review the HTML structure
-   - Examine the CSS implementations
-   - Read the project-specific README and code comments for detailed explanations
 
 
 ## 🌟 Show Your Support
