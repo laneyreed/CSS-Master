@@ -1,0 +1,2 @@
+- [Image Gallery](./imagegallery/README.md)
+    - A responsive image gallery showcasing CSS techniques for image handling, responsive design, and Bootstrap integration.

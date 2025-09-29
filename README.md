@@ -25,33 +25,14 @@
 
 - 🔸 [Pseudo-Elements](./pseudo-elements/README.md) (`::before`, `::after`): Master decorative CSS without extra HTML
 - 📱 [Animations](./animations/README.md)
+- ✨ [Images](./images/README.md)
 
 - 🚧 More concepts coming soon...
 
-## 🛠️ How to Use
-
-- **Clone the repository:**
-- **Navigate to any project folder:**
-- **Open the HTML file in your browser:**
-   - open directly in your browser
-   - rr use a live server extension in your code editor
 - **Study the code:**
    - Review the HTML structure
    - Examine the CSS implementations
    - Read the project-specific README and code comments for detailed explanations
-
-
-## 📁 Project Structure
-
-```
-CSS-Master/
-├── README.md                 # Main documentation
-├── pseudo-elements/          # Pseudo-element techniques
-│   ├── pseudo-element.html   # Demo page
-│   ├── styles.css           # CSS implementation
-│   └── README.md            # Project documentation
-└── [future-projects]/       # Additional CSS projects
-```
 
 
 ## 🌟 Show Your Support
